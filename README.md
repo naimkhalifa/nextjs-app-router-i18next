@@ -1,1 +1,1 @@
-# nextjs-app-router-i18next
+Next.js App Router with i18next POC based on https://i18nexus.com/tutorials/nextjs/react-i18next tutorial

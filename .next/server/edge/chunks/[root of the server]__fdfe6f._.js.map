@@ -1,0 +1,9 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/i18nConfig.js"],"sourcesContent":["const i18nConfig = {\n  locales: ['fr', 'nl'],\n  defaultLocale: 'fr'\n};\n\nmodule.exports = i18nConfig;"],"names":[],"mappings":"AAAA,MAAM,aAAa;IACjB,SAAS;QAAC;QAAM;KAAK;IACrB,eAAe;AACjB;AAEA,OAAO,OAAO,GAAG"}},
+    {"offset": {"line": 30, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}},
+    {"offset": {"line": 36, "column": 0}, "map": {"version":3,"sources":["turbopack://[project]/middleware.js"],"sourcesContent":["import { i18nRouter } from 'next-i18n-router';\nimport i18nConfig from './i18nConfig';\n\nexport function middleware(request) {\n  return i18nRouter(request, i18nConfig);\n}\n\n// applies this middleware only to files in the app directory\nexport const config = {\n  matcher: '/((?!api|static|.*\\\\..*|_next).*)'\n};"],"names":[],"mappings":";;;;AAAA;AACA;;;AAEO,SAAS,WAAW,OAAO;IAChC,OAAO,CAAA,GAAA,uJAAA,CAAA,aAAU,AAAD,EAAE,SAAS,0GAAA,CAAA,UAAU;AACvC;AAGO,MAAM,SAAS;IACpB,SAAS;AACX"}},
+    {"offset": {"line": 50, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
